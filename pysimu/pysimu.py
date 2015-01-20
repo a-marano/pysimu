@@ -11,7 +11,7 @@ Created on Thu Aug 14 20:21:56 2014
 
 import numpy as np
 from scipy.integrate import ode
-from models.psys import sys_freq_model_1, gen_nc
+from .models.psys import sys_freq_model_1, gen_nc
 
 
 class sim:
